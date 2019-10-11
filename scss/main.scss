@@ -1,3 +1,5 @@
+$primary-color: #32a88d;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +12,7 @@ nav {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 20px;
-    background-color: #6cb88a;
+    background-color: $primary-color;
 
   }
   
@@ -21,13 +23,24 @@ nav {
     font-family: 'PT Sans Narrow', sans-serif;
   }
 
-
-
-nav a:hover {
-	background-color: #6cb88a;
-	color: #26272b;
+#logo {
+    padding: 15px;
+    margin-top: -70px;
+    margin-left: 150px;
 }
 
+h3 {
+    padding: 35px;
+}
+
+#overmij {
+    padding: 35px;
+    margin-top: -50px;
+}
+
+nav a:hover {
+	color: #26272b;
+}
 
 .site-footer
 {
