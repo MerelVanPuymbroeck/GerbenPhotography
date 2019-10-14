@@ -11,7 +11,7 @@ $font-primair: 'PT Sans Narrow', sans-serif;
 nav {
     padding: 1em ;
     text-align: left;
-    font-family: $font-primair;
+    font-family: $font-primair;;
     font-size: 20px;
     background-color: $primary-color;
   
@@ -29,6 +29,7 @@ nav a:hover {
   background-color: $secondary-color;
   padding: 1em;
   text-decoration: none;
+  text-align: left;
 }
 
 .flex-container > div {
@@ -50,17 +51,10 @@ nav a:hover {
   box-shadow: 2px 2px 5px grey;
 }
 
-.Box-2 {
-  flex-direction: column;
-  flex: 2;
-
-}
-
-
-.trouw {
-  width: 80%;
+.logo {
+  width: 35%;
   margin-left: 50px;
-  box-shadow: 2px 2px 5px grey;
+  padding: 2px;
 }
 
 .Box-3 {
@@ -86,8 +80,36 @@ nav a:hover {
   color: white;
 }
 
-.portret, .trouwicon, .party {
+#leesmeer {
+  color:white;
+  font-family: $font-primair;
+  text-decoration: underline;
+}
+
+.portretfoto, .trouwfoto, .feestfoto {
+  padding: 10px;
+}
+
+
+.portret, .trouwicon, .party,{
   width: 13%;
+}
+
+.feestfoto, .trouwfoto, .portretfoto {
+  width: 100%;
+}
+
+#button {
+  background-color: #206957;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .site-footer
