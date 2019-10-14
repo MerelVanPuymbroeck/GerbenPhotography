@@ -1,4 +1,6 @@
 $primary-color: #3a9e94;
+$secondary-color: #3e8572;
+$font-primair: 'PT Sans Narrow', sans-serif;
 
 * {
     box-sizing: border-box;
@@ -9,36 +11,83 @@ $primary-color: #3a9e94;
 nav {
     padding: 1em ;
     text-align: left;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: $font-primair;
     font-size: 20px;
     background-color: $primary-color;
-
-  }
   
-  nav a {
+    a {
     color: white;
     margin: 0 1em;
     text-decoration: none;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: $font-primair;
   }
 
-#logo {
-    padding: 15px;
-    margin-top: -70px;
-    margin-left: 150px;
-}
-
-h3 {
-    padding: 35px;
-}
-
-#overmij {
-    padding: 35px;
-    margin-top: -50px;
 }
 
 nav a:hover {
-	color: #26272b;
+  color: white;
+  background-color: $secondary-color;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.flex-container > div {
+  padding: 15px;
+  margin: 5px;
+  font-family: $font-primair;
+  margin: 25px;
+  text-align: center;
+}
+
+.flex-container {
+  display:flex;
+}
+
+.Box-1 {
+  flex-direction: column;
+  flex: 2;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.Box-2 {
+  flex-direction: column;
+  flex: 2;
+
+}
+
+
+.trouw {
+  width: 80%;
+  margin-left: 50px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.Box-3 {
+  flex-direction: column;
+  flex: 3;
+  background-color: $primary-color;
+  box-shadow: 2px 2px 5px grey;
+  color: white;
+}
+
+.Box-4 {
+  flex-direction: column;
+  flex: 3;
+  background-color: $primary-color;
+  box-shadow: 2px 2px 5px grey;
+  color: white;
+}
+.Box-5 {
+  flex-direction: column;
+  flex: 3;
+  background-color:$primary-color;
+  box-shadow: 2px 2px 5px grey;
+  color: white;
+}
+
+.portret, .trouwicon, .party {
+  width: 13%;
 }
 
 .site-footer

@@ -8,7 +8,7 @@
 nav {
   padding: 1em;
   text-align: left;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 20px;
   background-color: #3a9e94;
 }
@@ -17,26 +17,104 @@ nav a {
   color: white;
   margin: 0 1em;
   text-decoration: none;
-  font-family: 'PT Sans Narrow', sans-serif;
-}
-
-#logo {
-  padding: 15px;
-  margin-top: -70px;
-  margin-left: 150px;
-}
-
-h3 {
-  padding: 35px;
-}
-
-#overmij {
-  padding: 35px;
-  margin-top: -50px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 nav a:hover {
-  color: #26272b;
+  color: white;
+  background-color: #3e8572;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.flex-container > div {
+  padding: 15px;
+  margin: 5px;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 25px;
+  text-align: center;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Box-1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+}
+
+.Box-2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.trouw {
+  width: 80%;
+  margin-left: 50px;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+}
+
+.Box-3 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  background-color: #3a9e94;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+  color: white;
+}
+
+.Box-4 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  background-color: #3a9e94;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+  color: white;
+}
+
+.Box-5 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  background-color: #3a9e94;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+  color: white;
+}
+
+.portret, .trouwicon, .party {
+  width: 13%;
 }
 
 .site-footer {
