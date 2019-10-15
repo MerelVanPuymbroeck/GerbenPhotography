@@ -20,6 +20,25 @@ nav a {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
+.titel {
+  padding: 15px;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 25px;
+  text-align: center;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+  color: #3e8572;
+}
+
+#overmij {
+  font-size: 16px;
+}
+
+#diensten {
+  color: black;
+}
+
 nav a:hover {
   color: white;
   background-color: #3e8572;
@@ -53,6 +72,7 @@ nav a:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 2px 2px 5px grey;
           box-shadow: 2px 2px 5px grey;
+  font-size: 15px;
 }
 
 .logo {
@@ -61,7 +81,7 @@ nav a:hover {
   padding: 2px;
 }
 
-.Box-3 {
+.Box-3, .Box-4, .Box-5, .Box-6 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -73,34 +93,7 @@ nav a:hover {
   -webkit-box-shadow: 2px 2px 5px grey;
           box-shadow: 2px 2px 5px grey;
   color: white;
-}
-
-.Box-4 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-  background-color: #3a9e94;
-  -webkit-box-shadow: 2px 2px 5px grey;
-          box-shadow: 2px 2px 5px grey;
-  color: white;
-}
-
-.Box-5 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-  background-color: #3a9e94;
-  -webkit-box-shadow: 2px 2px 5px grey;
-          box-shadow: 2px 2px 5px grey;
-  color: white;
+  font-size: 15px;
 }
 
 #leesmeer {
@@ -109,16 +102,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.portretfoto, .trouwfoto, .feestfoto {
+.portretfoto, .trouwfoto, .feestfoto, .doopfeest {
   padding: 10px;
-}
-
-.portret, .trouwicon, .party {
-  width: 13%;
-}
-
-.feestfoto, .trouwfoto, .portretfoto {
   width: 100%;
+}
+
+.portret, .trouwicon, .party, .baby {
+  width: 13%;
 }
 
 #button {
