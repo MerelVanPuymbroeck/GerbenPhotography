@@ -107,8 +107,24 @@ nav a:hover {
   width: 100%;
 }
 
+.photoicon {
+  width: 5%;
+}
+
 .portret, .trouwicon, .party, .baby {
   width: 13%;
+}
+
+.facebook, .instagram {
+  width: 5%;
+  padding: 5%;
+}
+
+.volg {
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 #button {
