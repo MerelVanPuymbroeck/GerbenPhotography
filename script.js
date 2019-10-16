@@ -2,7 +2,7 @@ var i = 0;
 var images = [];
 var time = 3000;
 
-images [0] = "Beelden/libelle.jpg";
+images [0] = "Beelden/coffee.png";
 images [1] = "Beelden/koppelfoto.jpg";
 images [2] = "Beelden/groepsfoto.jpg";
 

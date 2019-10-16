@@ -24,6 +24,18 @@ nav {
 
 }
 
+nav a:hover {
+  color: white;
+  background-color: $secondary-color;
+  padding: 1em;
+  text-decoration: none;
+  text-align: left;
+}
+
+.balk {
+  background-color: $primary-color;
+  height: 12px;
+}
 .titel {
   padding: 15px;
   font-family: "PT Sans Narrow", sans-serif;
@@ -41,14 +53,6 @@ nav {
 #diensten {
   color:black;
 
-}
-
-nav a:hover {
-  color: white;
-  background-color: $secondary-color;
-  padding: 1em;
-  text-decoration: none;
-  text-align: left;
 }
 
 .flex-container > div {
@@ -108,7 +112,7 @@ nav a:hover {
 
 .facebook, .instagram {
   width: 5%;
-  padding: 5%;
+  padding: 5px;
 }
 
 .volg {

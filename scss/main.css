@@ -20,6 +20,19 @@ nav a {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
+nav a:hover {
+  color: white;
+  background-color: #3e8572;
+  padding: 1em;
+  text-decoration: none;
+  text-align: left;
+}
+
+.balk {
+  background-color: #3a9e94;
+  height: 12px;
+}
+
 .titel {
   padding: 15px;
   font-family: "PT Sans Narrow", sans-serif;
@@ -37,14 +50,6 @@ nav a {
 
 #diensten {
   color: black;
-}
-
-nav a:hover {
-  color: white;
-  background-color: #3e8572;
-  padding: 1em;
-  text-decoration: none;
-  text-align: left;
 }
 
 .flex-container > div {
@@ -117,7 +122,7 @@ nav a:hover {
 
 .facebook, .instagram {
   width: 5%;
-  padding: 5%;
+  padding: 5px;
 }
 
 .volg {
