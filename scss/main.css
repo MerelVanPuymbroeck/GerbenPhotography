@@ -145,6 +145,11 @@ nav a:hover {
   cursor: pointer;
 }
 
+#button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .site-footer {
   background-color: #26272b;
   padding: 45px 0 20px;
