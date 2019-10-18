@@ -1,8 +1,9 @@
-* {
+body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav {
@@ -132,11 +133,24 @@ nav a:hover {
   text-transform: uppercase;
 }
 
-#button {
-  background-color: #206957;
+.logocontact {
+  width: 30%;
+}
+
+#message {
+  height: 100px;
+  width: 50%;
+}
+
+#email, #name {
+  width: 50%;
+}
+
+.button {
+  background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 10px 32px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

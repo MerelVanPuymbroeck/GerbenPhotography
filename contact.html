@@ -11,6 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet"></head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
+
 <header> 
     <nav>
         <a href="index.html">Home</a>
@@ -23,8 +28,22 @@
 <body>
     <div class="flex-container">
         <div class="Box-1">
-            <img class="logo" src="Beelden/logo.png" alt="logo"><br>
+            <img class="logocontact" src="Beelden/logo.png" alt="logo"><br>
+            <h2>Contact Us</h2>
+            <hr>
           <p id="overmij">Hebt u vragen? Of wilt u een offerte aanvragen voor één van u evenement zoals een trouw, doopfeest of verjaardag?<br> Neem dan zeker contact met me op via onderstaande formulier. Ik neem zo snel mogelijk contact met je op!</p>
+          <form action="/action_page.php">
+            Name:<br>
+            <input id="name" type="text" name="name" value="Put here your name">
+            <br><br>
+            Email:<br>
+            <input id="email" type="text" name="email" value="Put here your e-mail">
+            <br><br>
+            Message:<br>
+            <input id="message" type="text" name="message" value="">
+            <br><br>
+            <input type="button" class="button" value="Sumbit">
+          </form>
         </div>
         </div>
 </body>

@@ -2,10 +2,11 @@ $primary-color: #3a9e94;
 $secondary-color: #3e8572;
 $font-primair: 'PT Sans Narrow', sans-serif;
 
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav {
@@ -123,11 +124,24 @@ nav a:hover {
 
 }
 
-#button {
-  background-color: #206957;
+.logocontact {
+  width: 30%;
+}
+
+#message {
+  height: 100px;
+  width: 50%;
+}
+
+#email, #name {
+  width: 50%;
+}
+
+.button {
+  background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 10px 32px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -162,6 +176,7 @@ nav a:hover {
   margin-top:5px;
   letter-spacing:2px
 }
+
 .site-footer a
 {
   color:#737373;
