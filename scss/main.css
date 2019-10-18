@@ -1,9 +1,8 @@
-body {
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 nav {
@@ -133,24 +132,11 @@ nav a:hover {
   text-transform: uppercase;
 }
 
-.logocontact {
-  width: 30%;
-}
-
-#message {
-  height: 100px;
-  width: 50%;
-}
-
-#email, #name {
-  width: 50%;
-}
-
-.button {
-  background-color: #4CAF50;
+#button {
+  background-color: #206957;
   border: none;
   color: white;
-  padding: 10px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -233,5 +219,18 @@ nav a:hover {
   .site-footer .copyright-text, .site-footer .social-icons {
     text-align: center;
   }
+}
+
+.logocontact {
+  width: 30%;
+}
+
+#message {
+  height: 100px;
+  width: 50%;
+}
+
+#email, #name {
+  width: 50%;
 }
 /*# sourceMappingURL=main.css.map */
